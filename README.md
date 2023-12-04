@@ -1,24 +1,28 @@
 # SpatialAudio
-
-An exploration of Digital Signal Processing techniques to create spatial sound with 2-channel audio. Read more about the project and our progress [here](https://eecs3dsound.wixsite.com/eecs351g1)
-
+Exploring Digital Signal Processing techniques to create immersive spatial sound using 2-channel audio. This project leverages concepts like Interaural Time Difference (ITD), Interaural Level Difference (ILD), the Pinna Effect, Head-Related Transfer Function (HRTF), and Cross-Correlation to simulate a three-dimensional audio experience. Learn more about our journey and progress[here](https://eecs3dsound.wixsite.com/eecs351g1)
 
 ## Key Concepts
-
 ### Interaural Time/Level Difference (ITD/ILD)
-- differences in timing and level between the left and right channels
-- allows for computation of the angle of the sound
-- conversely, can be used to manipulate a given audio sample to sound as if it came from a different angle
+- These are the differences in time and level of audio signals received by the left and right ears.
+- Key to determining the angle of origin of a sound.
+- Manipulate audio samples to create the illusion of sound emanating from different directions.
 
 ### Pinna Effect
-- visible part of outer ear
-- directional filtering of high-frequency sounds
+- Focuses on the outer ear's role in sound localization.
+- The pinna (visible part of the ear) assists in filtering and directing high-frequency sounds, contributing to vertical localization.
 
 ### Head-Related Transfer Function (HRTF)
-- system for approximating how audio sounds like to humans
-- can be drawn empirically with lab equipment (or online databases containing empirical data)
+- Simulates how an individual's ears receive sound from a point in space.
+- Can be customized based on empirical data, allowing for a personalized audio experience.
 
 ### Cross-Correlation
-- signal technique for finding signal similarities
-- can compute time shifts between two signals
-- useful for alignment, pattern matching, and analysis
+- A method to analyze the similarity and time lag between two signals.
+- Important in aligning audio signals, detecting patterns, and conducting in-depth sound analysis.
+
+### Implementation
+In this project, we've implemented various algorithms and techniques to simulate the spatial audio experience. The Jupyter Notebook (SpatialG1.ipynb) in this repository provides an in-depth look at our methods and findings, including:
+
+- Data analysis and visualization techniques for understanding sound characteristics.
+- Application of DSP techniques to create spatial sound illusions.
+- Experiments with different sound samples and simulation scenarios.
+
