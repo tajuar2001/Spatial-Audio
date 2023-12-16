@@ -1,5 +1,5 @@
 # SpatialAudio
-Exploring Digital Signal Processing techniques to create immersive spatial sound using 2-channel audio. This project leverages concepts like Interaural Time Difference (ITD), Interaural Level Difference (ILD), the Pinna Effect, Head-Related Transfer Function (HRTF), and Cross-Correlation to simulate a three-dimensional audio experience. Learn more about our journey and progress[here](https://eecs3dsound.wixsite.com/eecs351g1)
+Exploring Digital Signal Processing techniques to create immersive spatial sound using 2-channel audio. This project leverages concepts like Interaural Time Difference (ITD), Interaural Level Difference (ILD), the Pinna Effect, Head-Related Transfer Function (HRTF), and Cross-Correlation to simulate a three-dimensional audio experience. Learn more about our journey and progress [here] (https://eecs3dsound.wixsite.com/eecs351g1)
 
 ## Key Concepts
 ### Interaural Time/Level Difference (ITD/ILD)
